@@ -3,5 +3,23 @@ library(sf)
 library(ggplot2)
 library(mapview)
 library(terra)
-
+library(lubridate)
+library(RColorBrewer)
+library(patchwork)
+library(amt)
+library(units)
+library(measurements)
+library(ggmap)
+library(osmdata)
+library(viridis)
 `%!in%` <- Negate(`%in%`)
+library(readr)
+library(purrr)
+library(tools)
+library(paletteer)
+library(readxl)
+library(gsheet)
+
+projKM <- "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=0.99982 +x_0=600000 +y_0=750000
+           +ellps=GRS80 +units=km +no_defs"
+
